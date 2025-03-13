@@ -2,6 +2,7 @@
 
 ## Setup
 O projeto base foi gerado com a Angular CLI, utilizando o comando `ng new`.
+Gerado  o projeto, foi foi adicionada a dependência do TailwindCSS seguindo a [documentação do projeto](https://tailwindcss.com/docs/installation/framework-guides/angular).
 
 ## Planejamento
 Seguindo o conceito de blog apresentado, tive a ideia de desenvolver uma pequena página inicial de um blog pessoal sobre leituras. A ideia é como uma página de perfil de um goodreads mas só minha.
