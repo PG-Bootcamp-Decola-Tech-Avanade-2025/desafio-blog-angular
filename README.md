@@ -9,4 +9,4 @@ Seguindo o conceito de blog apresentado, tive a ideia de desenvolver uma pequena
 Para desenvolver o design, encontrei inspiração no próprio [goodreads](https://www.goodreads.com/) e em um blog interessante do desenvolvedor de software [Thomas Queste](https://www.tomsquest.com/).
 O design em si foi montado no software Figma e pode ser visto, por completo, [clicando aqui](https://www.figma.com/design/SpcEBQjQOufytiuTOyiwzW/Angular-Blog---MyReads?node-id=0-1&t=QwjVlc7kHgCwT6mk-1).
 
-![Imagem do design desenvolvido](./img/design.png) 
+![Imagem do design desenvolvido](./img/design_annotated.png) 
