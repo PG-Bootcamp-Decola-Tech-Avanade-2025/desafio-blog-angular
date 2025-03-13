@@ -39,6 +39,10 @@ export class FakeBooksService {
     return this.books;
   }
 
+  getRated() {
+    return this.books.filter((book) => book.rating != undefined);
+  }
+
   getUnrated() {
     return this.books.filter((book) => book.rating == undefined);
   }

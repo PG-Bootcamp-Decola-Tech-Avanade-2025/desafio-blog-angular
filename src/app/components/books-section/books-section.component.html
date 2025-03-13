@@ -1,1 +1,24 @@
-<p>books-section works!</p>
+<div
+  class="px-10 py-5 flex flex-col gap-10 bg-neutral-800 rounded-2xl text-2xl"
+>
+  <h2 id="books" class="text-3xl">Books</h2>
+
+  <hr class="text-neutral-600">
+
+  <h3>Currently Reading...</h3>
+  <app-big-book-entry [book]="booksService.getUnrated()[0]"></app-big-book-entry>
+
+  <hr class="text-neutral-600">
+
+  <h3>My Top 3</h3>
+  <div class="flex flex-col gap-10">
+    @for (book of booksService.getRated() | slice : 0 : 3; track $index;) {
+      <app-big-book-entry [book]="book"></app-big-book-entry>
+    }
+  </div>
+
+  <hr class="text-neutral-600">
+
+  <h3>My Other Reads</h3>
+
+</div>

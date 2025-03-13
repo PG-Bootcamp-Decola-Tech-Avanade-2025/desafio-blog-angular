@@ -1,0 +1,3 @@
+:host:nth-of-type(even) :first-child {
+  @apply flex-row-reverse;
+}

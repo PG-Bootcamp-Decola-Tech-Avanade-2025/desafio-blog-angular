@@ -1,0 +1,5 @@
+:host>* {
+  background-image: url("/wayofkings-bg-fade.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
