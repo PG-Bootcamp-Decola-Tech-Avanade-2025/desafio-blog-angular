@@ -1,5 +1,5 @@
 :first-child {
-  background-image: linear-gradient(transparent, var(--color-neutral-900)), url("/wayofkings-bg.jpg");
-  background-size: contain;
+  background-image: linear-gradient(transparent, var(--color-neutral-900) 85%), url("/wayofkings-bg.jpg");
+  background-size: 100dvw;
   background-repeat: no-repeat;
 }
