@@ -1,0 +1,8 @@
+<div
+  class="w-50 h-80 grid justify-items-center items-center text-center"
+  style="grid-template-rows: calc(var(--spacing) * 52) 2fr 1fr;"
+>
+  <img class="h-full" [src]="book()?.cover_uri" [alt]="book()?.title">
+  <span>{{ book()?.title }}</span>
+  <span class="text-lg opacity-50">By {{ book()?.author }}</span>
+</div>

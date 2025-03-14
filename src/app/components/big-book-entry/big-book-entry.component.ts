@@ -9,7 +9,7 @@ import { FakeBooksService } from '../../services/fake-books.service';
   styleUrl: './big-book-entry.component.css'
 })
 export class BigBookEntryComponent {
-  book: InputSignal<Book> = input(inject(FakeBooksService).getAll()[3]); // Placeholder
+  book: InputSignal<Book | undefined> = input();
 
   getBookRatingString() :string {
     let rating = this.book()?.rating;

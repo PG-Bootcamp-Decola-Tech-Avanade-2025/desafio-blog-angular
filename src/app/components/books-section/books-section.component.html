@@ -20,5 +20,10 @@
   <hr class="text-neutral-600">
 
   <h3>My Other Reads</h3>
+  <div class="flex gap-5">
+    @for (book of booksService.getRated() | slice : 3 : 7; track $index;) {
+      <app-small-book-entry [book]="book"></app-small-book-entry>
+    }
+  </div>
 
 </div>
