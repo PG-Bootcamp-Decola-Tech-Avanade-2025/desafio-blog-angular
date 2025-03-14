@@ -22,6 +22,9 @@ Tudo isso dito, segue o resultado final:
 
 ![Imagem (3 de 3) do Blog Finalizado](./img/final_3.png)
 
+## Como Rodar o Projeto
+Basta clonar o repositório e, com um terminal aberto em sua pasta, executar: `npm install` e, então `ng serve`. 
+
 ## Referências
 - [Angular - Documentação](https://angular.dev/overview)
 - [Tailwind CSS - Documentação](https://tailwindcss.com/docs/installation/framework-guides/angular)
